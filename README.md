@@ -64,6 +64,10 @@ Because stage 3 writes into the company's records, most of the checks are there.
 - **An AI suggestion I rejected.** When I asked the AI assistant to improve the deal-bot, one version estimated a missing commission as a percentage of the sale price. Commissions are recorded amounts, so I had it use the Rétribution column only. Writing an estimate into the company's records would have created figures nobody could trace.
 - **Naming conventions.** Because the names of agents, street names and license names were sometimes entered in French and sometimes in English a lot of street names, agent names and more deviated a lot, I mostly had to clean these in excel. 
 
+## How it evolved
+
+Neither bot was built in one pass. The portal scraper went through about ten versions as I worked through the problems above: the portal switching between English and French, clicks landing on the wrong tab, and the commission cell merging two numbers. The deal-bot went through three main versions, plus eight debugging copies that I ran against a test spreadsheet before it touched real deals. The progress file that prevents double entry and the screenshot on every failure were both added in the final version. This repository contains only the final version of each script.
+
 ## Limitations and what I'd change
 
 - **Placeholder values.** If a deal has no postal code, the deal-bot enters a placeholder (`H0H 0H0`). Square footage is always entered as 1. Both of these were things I had to do manually because of how data was historically entered in the systems. 
