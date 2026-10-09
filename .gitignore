@@ -1,0 +1,29 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets and private settings (public examples are committed instead)
+.env
+credentials.json
+token.json
+config.json
+office_map.json
+
+# Browser profile folders (the original version saved a logged-in session here)
+data/
+
+# Run outputs that contain real transaction data
+progress.json
+logs/
+*.png
+*.xlsx
+*.xls
+*.csv
+
+# Invented sample workbooks are the only spreadsheets allowed in
+!sample_data/*.xlsx
+
+# OS clutter
+.DS_Store
+Thumbs.db
