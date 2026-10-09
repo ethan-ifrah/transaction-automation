@@ -1,0 +1,35 @@
+{
+  "gmail": {
+    "sender": "<removed: notification sender address>",
+    "subject_prefix": "<removed: notification subject line>"
+  },
+  "portal": {
+    "login_url": "<removed: portal login page>",
+    "search_url": "<removed: portal transaction search page>"
+  },
+  "excel": {
+    "path": "Transaction_Meta.xlsx",
+    "sheet": "Transaction_Meta"
+  },
+  "selectors": {
+    "mls_search_input": "#mls-number-filter",
+    "contract_search_input": "#contract-number-filter",
+    "search_result_rows": "table tbody tr",
+    "types_field": "#transaction-types",
+    "profile_area": "#transaction-profile",
+    "transaction_tab_bar": "#transaction-tabs",
+    "profile_tab_id": "tab-profile",
+    "agents_tab_id": "tab-agents",
+    "field_labels": ["div.field-label"],
+    "field_row_xpath": "xpath=ancestor::div[contains(@class,'field-row')][1]",
+    "field_value": "div.field-value",
+    "sidebar": "div.sidebar",
+    "accepted_date_input": "#accepted-date",
+    "closing_date_input": "#closing-date",
+    "agent_info_cells": "td.agent-info",
+    "agent_office_cell": "td.agent-office",
+    "agent_commission_cell": "td.agent-commission",
+    "sold_price_row": "div.sold-price-row",
+    "sold_price_value": "div.sold-price-value"
+  }
+}
