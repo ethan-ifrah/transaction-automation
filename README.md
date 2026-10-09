@@ -1,12 +1,12 @@
 # Transaction Data Automation
 
-At the real estate brokerage where I worked as a transaction accounting intern, every new transaction was recorded by hand. Someone read the notification email, looked the transaction up in an external transaction portal, copied the address, dates, price and every agent's commission into both a spreadsheet and the company's deal management system.
+Last year at the real estate brokerage where I worked as a transaction accounting intern, every new transaction was recorded by hand. Someone read the notification email, looked the transaction up in an external transaction portal, copied the address, dates, price and every agent's commission into both a spreadsheet and the company's deal management system.
 
 I automated that workflow in three stages. It eliminated about an average of 20 hours of manual data entry a month. I built it in about 40 hours of my own time over one month, using various AI coding assistants to write and debug code, while I designed the workflow, the business rules and the checks.
 
 > Shared with permission from my former employer. All company data, system addresses, email details and page structure have been removed, and the examples use invented data. The tool has since been replaced by another automation. 
 
-This repository is a showcase of a tool that ran in production, not a working install. System addresses, email details and login data have been removed, so it won't run end to end. The deal-bot's data-loading step still runs on the sample data (see [Try it](#try-it-with-sample-data)).
+This repository is a showcase of a tool that ran in production last year, not a working install. System addresses, email details and login data have been removed, so it won't run end to end. The deal-bot's data-loading step still runs on the sample data (see [Try it](#try-it-with-sample-data)).
 
 ## How it works
 
